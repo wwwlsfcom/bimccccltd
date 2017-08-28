@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "/xsd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hdsx.dlxc.demo.mapper.DemoMapper">
+
+	<select id="selectTime" resultType="Demo">
+		SELECT CONVERT(VARCHAR(30),GETDATE(),9) AS TIME
+	</select>
+	
+</mapper>

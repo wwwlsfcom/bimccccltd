@@ -1,0 +1,8 @@
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+    "/xsd/struts-2.1.7.dtd">
+<struts>
+	<package name="demo" extends="struts-default" namespace="/demo">
+		<action name="selectTime" class="demoAction" method="selectTime"/>
+	</package>
+</struts>

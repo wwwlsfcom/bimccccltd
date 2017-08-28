@@ -1,0 +1,24 @@
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN" "/xsd/struts-2.1.7.dtd">
+<struts>
+	<include file="struts-default.xml" />
+	<constant name="struts.locale" value="zh_CN"></constant>
+	<constant name="struts.i18n.encoding" value="UTF-8"></constant>
+	<!-- 设置Struts2最大上传 -->
+	<constant name="struts.multipart.maxSize" value="500000000000000"></constant>
+	<!-- 设置Struts2是否支持动态方法调用，该属性的默认值是true。如果需要关闭动态方法调用，则可设置该属性为false -->
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<!-- 设置是否每次HTTP请求到达时，系统都重新加载资源文件。该属性默认值是false。在开发阶段将该属性设置为true会更有利于开发，但在产品发布阶段应将该属性设置为false -->
+	<constant name="struts.i18n.reload" value="true" />
+	<!-- 设置 Struts 2应用是否使用开发模式，设置该属性为true，则可以在应用出错时显示更多、更友好的出错提示 -->
+	<constant name="struts.devMode" value="true" />
+	<!-- Struts2也有自己的对象池，就像Spring那样，在配置文件中你可以引用对象池中的对象，你可以借助于Spring中的对象池，当想要得到Spring中的对象池时 -->
+	<constant name="struts.objectFactory" value="spring" />
+	<!-- 设置浏览器是否缓存静态内容。当应用处于开发阶段时，我们希望每次请求都获得服务器的最新响应，则可设置该属性为false。 -->
+	<constant name="struts.serve.static.browserCache" value="false" />
+	<!-- action默认后缀 -->
+	<constant name="struts.action.extension" value="do" />
+	<!-- 编目编码模块 -->
+
+	<include file="com/hdsx/dlxc/demo/action/struts.xml"></include>
+
+</struts>
