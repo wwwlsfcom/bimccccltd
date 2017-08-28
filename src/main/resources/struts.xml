@@ -20,5 +20,6 @@
 	<!-- 编目编码模块 -->
 
 	<include file="com/hdsx/dlxc/demo/action/struts.xml"></include>
-
+    <include file="com/hdsx/dlxc/login/action/struts.xml"></include>
+    
 </struts>
