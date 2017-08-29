@@ -1,0 +1,163 @@
+html,body,p,div,ul,li,span,a,input,button,img{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "宋体";
+}
+.header{
+	width: 100vw;
+	height: 44px;
+	background-color:black;
+	position: relative;
+}
+.left-item{
+	width: 60px;
+	position: absolute;
+	left: 2.7vw;
+	top: 30.6%;
+}
+.back{
+	width: 10px;
+	height: 17px;
+	background-image: url(../resource/PeportProblemImg/back.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+.left-item span{
+	margin-left: 13px;
+	font-size: 18px;
+	color: white;
+	position: absolute;
+	top: 30.6%;
+}
+.title{
+	width: 200px;
+	height: 44px;
+	line-height: 44px;
+	font-size: 20px;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+}
+.right-item{
+	width: 25px;
+	height: 6px;
+	background-image: url(../resource/PeportProblemImg/point.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 2.7vw;
+	top: 43%;
+}
+.photo-box{
+	width: 92vw;
+	height: auto;
+	margin: 2vw auto;
+	position: relative;
+}
+.photo-box:after{
+    content:"";
+    visibility:hidden;
+    display:block;
+    clear:both;
+}
+.photo-box img{
+	width: 30vw;
+	margin: 1vw 1vw 1vw 0;
+	float: left;
+}
+
+.photo-box img:nth-child(3n){
+	margin-right: 0;
+}
+.description-box{
+	width: 94vw;
+	height: 33.6vw;
+	margin: 3vw auto;
+	position: relative;
+	padding: 5px;
+	border: 1px solid #7fcfec;
+	background-color: #ebebeb;
+}
+#description{
+	width: 100%;
+	border: none;
+	outline: none;
+	resize: none;
+	word-spacing: normal;
+	background-color: #ebebeb;
+}
+.position-box{
+	width: 94vw;
+	height: 33.6vw;
+	margin: 3vw auto;
+	position: relative;
+	padding: 5px;
+	border: 1px solid #7fcfec;
+	background-color: #ebebeb;
+}
+#position{
+	width: 100%;
+	border: none;
+	outline: none;
+	resize: none;
+	word-spacing: normal;
+	background-color: #ebebeb;
+}
+#voice{
+	width: 7vw;
+	height: 7vw;
+	background-image: url(../resource/PeportProblemImg/audio_up.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: inline-block;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+#location{
+	width: 7vw;
+	height: 7vw;
+	background-image: url(../resource/PeportProblemImg/position_up.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	display: inline-block;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+.button-box{
+	width: 94vw;
+	margin: 3vw auto;
+	position: relative;
+}
+#button{
+	width: 94vw;
+	height: 11.6vw;
+	color: white;
+	background-color: #fabf13;
+	text-align: center;
+	line-height: 11.6vw;
+	border-radius: 5px;
+	font-size: 20px;
+	margin: 2vw auto;
+}
+.mask-layer{
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.8;
+	display: none;
+	z-index: 100;
+}
+.big-photo{
+	width: 88vw;
+	height: 60vw;
+	display: block;
+	margin: 100px auto;
+}
+  
